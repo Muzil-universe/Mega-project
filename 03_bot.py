@@ -10,7 +10,7 @@ client = OpenAI(
 )
 
 # Function to check if last message is from a specific sender
-def is_last_message_from_sender(chat_log, sender_name="Ayyan Naveed"):
+def is_last_message_from_sender(chat_log, sender_name="Sistorolgy"):
     last_line = chat_log.strip().split('\n')[-1]
     return sender_name in last_line
 
